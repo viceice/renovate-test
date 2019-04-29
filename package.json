@@ -1,0 +1,8 @@
+{
+  "name": "test",
+  "private": true,
+  "version": "0.0.0",
+  "dependencies": {
+    "renovate": "16.0.0"
+  }
+}
