@@ -4,5 +4,6 @@
     ":assignAndReview(kriese)"
   ],
   "automergeType": "branch",
-  "semanticCommits": true
+  "semanticCommits": true,
+  "baseBranches": [ "master", "dev" ]
 }
