@@ -1,0 +1,4 @@
+version: '2'
+services:
+  traefik:
+    image: traefik:v1.7.13-alpine@sha256:7304d493488785296c51469cf49406540ca3305f54c8af0f599b47d233d007c2
