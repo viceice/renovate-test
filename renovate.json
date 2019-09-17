@@ -17,5 +17,13 @@
     "extends": ["schedule:daily"],
     "automerge": true
   },
-  "pinDigests": true
+  "pinDigests": true,
+  "packageRules": [
+    {
+      "sourceUrlPrefixes": [
+        "https://github.com/theramis/Snapper"
+      ],
+      "groupName": "snapper packages"
+    }
+  ]
 }
