@@ -13,6 +13,9 @@
   "minor": {
     "masterIssueApproval": true
   },
+  "patch": {
+    "masterIssueApproval": false
+  },
   "digest": {
     "extends": ["schedule:daily"],
     "automerge": true
