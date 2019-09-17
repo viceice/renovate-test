@@ -8,7 +8,7 @@
 
     <ItemGroup>
         <PackageReference Include="Snapper" Version="2.0.0" />
-        <PackageReference Include="Snapper.NUnit" Version="2.0.1" />
+        <PackageReference Include="Snapper.NUnit" Version="2.0.0" />
     </ItemGroup>
    
 </Project>
