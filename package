@@ -1,0 +1,12 @@
+{
+  "name": "renovate-test",
+  "version": "0.0.0",
+  "private": true,
+  "dependencies": {  
+    "@babel/core": "7.6.0",
+    "@babel/plugin-syntax-dynamic-import": "7.2.0",
+    "@babel/preset-env": "7.5.5",
+    "@babel/preset-typescript": "7.6.0",
+    "@babel/register": "7.5.5"
+  }
+}
