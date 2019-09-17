@@ -5,6 +5,7 @@
     ":masterIssue"
   ],
   "prHourlyLimit": 0,
+  "separateMinorPatch": true,
   "semanticCommits": true,
   "timezone": "Europe/Berlin",
   "major": {
@@ -12,9 +13,6 @@
   },
   "minor": {
     "masterIssueApproval": true
-  },
-  "patch": {
-    "masterIssueApproval": false
   },
   "digest": {
     "extends": ["schedule:daily"],
