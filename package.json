@@ -3,9 +3,9 @@
   "private": true,
   "version": "0.0.0",
   "dependencies": {
-    "renovate": "16.13.5"
+    "renovate": "18.16.20"
   },
   "peerDependencies": {
-    "renovate": "^16.0.0"
+    "renovate": "^18.0.0"
   }
 }
