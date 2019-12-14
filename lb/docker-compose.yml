@@ -1,7 +1,7 @@
 version: '2'
 services:
   traefik:
-    image: traefik:v1.7.13-alpine@sha256:8900d013006f4e2d08fa9fbd4bc83a77a7f4f46bd45fd1c5b94dd2cf19b6dfe1
+    image: traefik:v1.7.20-alpine@sha256:f9f7bc3071415790c015ad52995e2997d9d1cfd5cffdde58cb403e15d71fbe4e
     ports:
     - '80:80'
     - '443:443'
