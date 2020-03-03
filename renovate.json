@@ -1,8 +1,31 @@
 {
-  "extends": [
-    "config:base"
-  ],
-  "automergeType": "branch",
-  "semanticCommits": true,
-  "baseBranches": [ "master", "dev" ]
-}
+    "extends": [
+      "config:base",
+      "docker:enableMajor",
+      ":masterIssue"
+    ],
+    "baseBranches": [ "master", "dev" ],
+    "prHourlyLimit": 0,
+    "separateMinorPatch": true,
+    "semanticCommits": true,
+    "timezone": "Europe/Berlin",
+    "major": {
+      "masterIssueApproval": true
+    },
+    "minor": {
+      "masterIssueApproval": true
+    },
+    "digest": {
+      "extends": ["schedule:daily"],
+      "automerge": true
+    },
+    "pinDigests": true,
+    "packageRules": [
+      {
+        "sourceUrlPrefixes": [
+          "https://github.com/theramis/Snapper"
+        ],
+        "groupName": "snapper packages"
+      }
+    ]
+  }
