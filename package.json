@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "dependencies": {
-    "renovate": "19.38.7"
+    "renovate": "19.38.9"
   },
   "peerDependencies": {
     "renovate": "^18.0.0"
