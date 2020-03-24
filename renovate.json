@@ -4,6 +4,12 @@
       "docker:enableMajor",
       ":masterIssue"
     ],
+    "lockFileMaintenance": {
+      "enabled": true,
+      "schedule": ["at any time"],
+      "stabilityDays": 0,
+      "masterIssueApproval": true
+    },
     "baseBranches": [ "master", "dev" ],
     "prHourlyLimit": 0,
     "separateMinorPatch": true,
