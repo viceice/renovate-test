@@ -30,6 +30,12 @@
           "https://github.com/theramis/Snapper"
         ],
         "groupName": "snapper packages"
+      },
+      {
+        "packageNames": [
+          "gitlab/gitlab-runner"
+        ],
+        "versionScheme": "regex:^(?<compatibility>.*)-v(?<major>\\d+)\\.(?<minor>\\d+)\\.(?<patch>\\d+)?$"
       }
     ]
   }
