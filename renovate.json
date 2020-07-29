@@ -24,7 +24,6 @@
       "extends": ["schedule:daily"],
       "automerge": true
     },
-    "pinDigests": true,
     "packageRules": [
       {
         "sourceUrlPrefixes": [
